@@ -10,6 +10,15 @@
 			<%- partial('_partial/head', {}, {cache: true}) %>
 			<%- partial('_partial/importJS', {}, {cache: true}) %>
 	<% } %>
+
+	<!-- 标签云的样式 -->
+	<style type="text/css">
+		body {background: #24313d;}
+		#tagsList {position: relative;}
+		#tagsList a {position: absolute;top: 0px;left: 0px;font-family: Microsoft YaHei;color: #fff;font-weight: bold;text-decoration: none;padding: 3px 6px;}
+		#tagsList a:hover {color: #FF0000;letter-spacing: 2px;}
+	</style>
+
 </head>
     <% if(page.layout === 'gallery') { %>
         <!-- Single Gallery Page -->

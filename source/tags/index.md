@@ -3,6 +3,11 @@ title: tags
 date: 2017-09-09 16:23:26
 ---
 
-<div>
-    <%- d3cloudtag(site.tags) %>
-</div>
+<% if (site.tags.length){ %>
+  <div class="widget-wrap">
+    <h3 class="widget-title"><%= __('tagcloud') %></h3>
+    <div class="widget tagcloud">
+      <%- tagcloud() %>
+    </div>
+  </div>
+<% } %>

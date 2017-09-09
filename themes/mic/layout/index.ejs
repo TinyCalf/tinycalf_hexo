@@ -25,7 +25,25 @@
         <div id="main" style="background-color: transparent; padding:0;">
         <section class="link_container" style="margin-top: 0; background-color: transparent; ">
             <div class="link_row">
-                <!-- 文章sample  s-->
+              <!--  标签云-->
+              <% if( (page.current === 1) && (is_home()) ) { %>
+              <div class="6u 12u(narrower)">
+                  <section class="link_box special">
+                      <div class="page_title" id="tagsList" style="background-image: url('/images/tagcloudbg.jpg');background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                        <%- tagcloud() %>
+                      </div>
+                      <div class="home-post-info">
+                          <!-- Author Avatar -->
+                          <div class="home-post-info-author-avatar">
+                              <h6><span class="home-post-info-data">标签云</span></h6>
+                              <div class="home-post-info-Category">
+
+                              </div>
+                          </div>
+                      </div>
+                  </section>
+              </div>
+              <% } %>
 
                 <% page.posts.each(function (post) { %>
                 <div class="6u 12u(narrower)">
@@ -57,7 +75,9 @@
                     </section>
                 </div>
                 <!-- 文章sample  e-->
-            <% }) %>
+                <% }) %>
+
+                <!-- 文章sample  s-->
             </div>
         </section>
         </div>
@@ -77,4 +97,5 @@
     <script src="/js/EasePack.min.js"></script>
     <script src="/js/rAF.js"></script>
     <script src="/js/demo-1.js"></script>
+    <script type="text/javascript" src="/js/tags.js"></script>
 </body>
