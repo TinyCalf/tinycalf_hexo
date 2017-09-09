@@ -4,7 +4,7 @@ date: 2017-09-04 23:11:54
 tags:
 - 区块链
 - 比特币
-- Bitcoin Core
+- BitcoinCore
 thumbnail: http://s3.amazonaws.com/main-newsbtc-images/2015/11/13070731/Bitcoin-Core-0.11.2-Candidate-Released.-newsbtc-bitcoin-news.png
 ---
 
