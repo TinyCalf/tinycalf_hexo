@@ -84,7 +84,7 @@ deploy:
   type: git
   repo: https://github.com/Jonathan-ZHU/tinycalf_hexo.git
   branch: deployment
-  message: deploy_20170909
+  message: deploy_20170910
 
 
 

@@ -120,13 +120,18 @@
 
         <div id="main" >
             <div class ="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
-                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 ></h2></a>
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >tags</h2></a>
             </div>
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
-                <p>layout: 404
-title: &quot;[404]&quot;
-description: &quot;偶藕，这个页面找不到了耶 :&#41;&quot;</p>
+                <p>&lt;% if (site.tags.length){ %&gt;
+  <div class="widget-wrap">
+    <h3 class="widget-title">&lt;%= __(&#39;tagcloud&#39;) %&gt;</h3>
+    <div class="widget tagcloud">
+      &lt;%- tagcloud() %&gt;
+    </div>
+  </div>
+&lt;% } %&gt;</p>
 
             </div>
 
@@ -189,8 +194,8 @@ $('.btn_click_load').click(function() {
 -->
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://www.tiny-calf.com/404.html';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://www.tiny-calf.com/404.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://www.tiny-calf.com/tags/index.html';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://www.tiny-calf.com/tags/index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 
