@@ -103,7 +103,9 @@ sudo ln -s ../sites-available/bws ./
 sudo /usr/sbin/nginx -s reload
 ```
 项目的各个配置文件实际上不用改，因为用的都是 *localhost* ，这样的话直接运行节点，看看能不能正常访问：
+
 ![](http://www.tiny-calf.com/content/images/2017/07/2017-07-24-09-14-52----.png)
+
 这样就说说明配置正确了，bws的话基本也没问题了，运行 *copay* 客户端看看是不是能正常使用了，记得搜索项目中所有带有 *bws/api* 的uri，都换成自己的好了。
 ## 完成
 如果配置全都正确现在iOS客户端应该已经可以正常使用了

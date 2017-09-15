@@ -33,6 +33,15 @@ Nav:
         Instagram:
             use: false
             link:
+        Wechat:
+            use: true
+            link:
+        QQ:
+            use: true
+            link:
+        Email:
+            use: true
+            link:
     pages:
         # 简历:
         #     link: "/about/"
@@ -47,7 +56,7 @@ Nav:
         Nodejs:
             link: "/categories/nodejs/"
         转到旧站:
-            link: "http://test.tiny-calf.com"
+            link: "http://www.tiny-calf.com"
         #自定义标签名
         #   link：“路径”
 
@@ -89,7 +98,7 @@ comment:
 # Available value:
 #     swiftype | google | local
 search:
-    use: google
+    use: local
     swiftype_key: Just another fine responsive
 
 
