@@ -5,6 +5,7 @@ tags:
 - 区块链
 - 比特币
 - BitcoinCore
+categories: 区块链
 thumbnail: /images/posts/windows.jpg
 ---
 

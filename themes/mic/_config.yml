@@ -46,16 +46,14 @@ Nav:
             link: "/categories/Linux/"
         Nodejs:
             link: "/categories/nodejs/"
-        Git:
-            link: "/categories/git/"
-        标签云:
-            link: "/categories/tag/"
+        转到旧站:
+            link: "http://test.tiny-calf.com"
         #自定义标签名
         #   link：“路径”
 
 MainFirst:
     name: 欢迎来 Tiny Calf
-    description: 我是Jonathan，全干工程师，我正在忙...
+    description: 本站目前只包含精选文章，更多内容请访问旧站
     pic_url: /images/me.jpg
     goto_ulr: ""
 
