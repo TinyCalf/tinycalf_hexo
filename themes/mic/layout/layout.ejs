@@ -2,6 +2,8 @@
 <html>
 
 <head>
+	<!-- 百度验证 -->
+	<meta name="baidu-site-verification" content="TkwOB1XRD3" />
 	<link rel="bookmark"  type="image/x-icon"  href="<%- theme.head.favicon %>"/>
 	 <link rel="shortcut icon" href="<%- theme.head.favicon %>">
 	<% if(page.layout === 'gallery') { %>
@@ -29,6 +31,22 @@
 			s.parentNode.insertBefore(hm, s);
 		})();
 	</script>
+
+	<!-- 百度自动提交 -->
+	<script>
+		(function(){
+		    var bp = document.createElement('script');
+		    var curProtocol = window.location.protocol.split(':')[0];
+		    if (curProtocol === 'https') {
+		        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+		    }
+		    else {
+		        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+		    }
+		    var s = document.getElementsByTagName("script")[0];
+		    s.parentNode.insertBefore(bp, s);
+		})();
+</script>
 
 </head>
     <% if(page.layout === 'gallery') { %>

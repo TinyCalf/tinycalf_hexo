@@ -56,7 +56,7 @@ Nav:
         Nodejs:
             link: "/categories/nodejs/"
         转到旧站:
-            link: "http://www.tiny-calf.com"
+            link: "http://test.tiny-calf.com"
         #自定义标签名
         #   link：“路径”
 
