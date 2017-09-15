@@ -6,7 +6,7 @@ tags:
 - nginx
 - ssl
 categories: Linux
-thumbnail: https://upload.wikimedia.org/wikipedia/commons/d/da/Internet2.jpg
+thumbnail: /images/Internet2.jpg
 ---
 
 > 本节记录一下node.js项目如何配合nginx配置ssl证书，主要用来解决copay的iOS客户端链接bws时出现的BADREQUEST问题，顺便优化一下url

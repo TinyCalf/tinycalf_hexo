@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="<%- config.root %>css/mic_main.css" />
     <link rel="stylesheet" href="<%- config.root %>css/dropdownMenu.css" />
     <% if (theme.busuanzi.enable === true ) {%>
-    	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    	<!-- <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
+      <script async src="<%- theme.busuanzi.busuanzi_pure_mini_js %>"></script>
 	<% } %>
     <noscript>
         <link rel="stylesheet" href="<%- config.root %>css/noscript.css" />

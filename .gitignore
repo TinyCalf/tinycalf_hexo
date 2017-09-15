@@ -3,4 +3,4 @@ Thumbs.db
 db.json
 *.log
 .deploy*/
-public/
+public

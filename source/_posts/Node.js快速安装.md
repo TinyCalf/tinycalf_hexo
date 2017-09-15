@@ -6,7 +6,7 @@ tags:
 - nvm
 - npm
 categories: nodejs
-thumbnail: http://wbsimms.com/wp-content/uploads/2016/07/NodeJsBackground.png
+thumbnail: /images/NodeJsBackground.jpg
 ---
 
 > 用安装包上传安装实在太慢了 <br>

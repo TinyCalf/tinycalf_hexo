@@ -7,7 +7,7 @@ tags:
 - BWS
 - copay
 categories: 区块链
-thumbnail: http://www.bitecoin.com/wp-content/uploads/2015/03/%E6%AF%94%E7%89%B9%E5%B8%81%E9%92%B1%E5%8C%85.jpg
+thumbnail: /images/posts/wallet.jpg
 ---
 
 > 本节我们在bitcore的基础上搭建我们自己货币的BWS（bitcore-wallet-service,比特核心钱包服务）以及依赖该服务的钱包客户端copay

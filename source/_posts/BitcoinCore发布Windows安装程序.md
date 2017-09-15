@@ -5,7 +5,7 @@ tags:
 - 区块链
 - 比特币
 - BitcoinCore
-thumbnail: http://s3.amazonaws.com/main-newsbtc-images/2015/11/13070731/Bitcoin-Core-0.11.2-Candidate-Released.-newsbtc-bitcoin-news.png
+thumbnail: /images/posts/windows.jpg
 ---
 
 > 本篇简单记录一下使用交叉编译发布Windows安装程序的方法
@@ -22,15 +22,15 @@ thumbnail: http://s3.amazonaws.com/main-newsbtc-images/2015/11/13070731/Bitcoin-
 首先按照doc/build_unix.md中的指示吧Unix的编译流程搭建好，这里不再多介绍了
 ## 交叉编译环境搭建
 ### 安装所需环境：
-```
+```bash
 sudo apt-get install build-essential libtool autotools-dev automake pkg-config bsdmainutils curl
 ```
 #### 安装64位下的环境：
-```
+```bash
 sudo apt-get install g++-mingw-w64-x86-64 mingw-w64-x86-64-dev
 ```
 使用命令编译：
-```
+```bash
 cd depends
 make HOST=x86_64-w64-mingw32
 cd ..
@@ -39,11 +39,11 @@ CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --pref
 make
 ```
 #### 如果你是32位：
-```
+```bash
 sudo apt-get install g++-mingw-w64-i686 mingw-w64-i686-dev
 ```
 使用命令编译：
-```
+```bash
 cd depends
 make HOST=i686-w64-mingw32
 cd ..
@@ -52,7 +52,7 @@ CONFIG_SITE=$PWD/depends/i686-w64-mingw32/share/config.site ./configure --prefix
 make
 ```
 ### 发布安装程序
-```
+```bash
 make install DESTDIR=/mnt/c/workspace/bitcoin
 ```
 ## 截图
