@@ -111,6 +111,11 @@
 			$navPanelToggle, $navPanel, $navPanelInner;
 
 		// Disable animations/transitions until the page has loaded.
+			setTimeout(function(){
+				$body.removeClass('is-loading');
+			},3000);
+
+
 			$window.on('load', function() {
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');

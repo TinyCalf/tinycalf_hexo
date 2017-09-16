@@ -86,12 +86,12 @@ fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB"
 # Available value of "use":
 #     duoshuo | disqus | disqus_click | changyan
 comment:
-    use: disqus_click
-    shortname: http-miccall-tech
+    use: changyan
+    shortname: tinycalf
     duoshuo_thread_key_type: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
-    changyan_appid:
-    changyan_conf:
+    changyan_appid: cytdxLe3B
+    changyan_conf: fa28a0faa37516b9a4d5ef03d78d65b2
     changyan_thread_key_type: path
 
 # Search Systems
