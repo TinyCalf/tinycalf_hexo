@@ -13,6 +13,7 @@ Intro:
     name: Tiny Calf
     slogan: "do something awesome"
     HeadButton: TINY CALF
+    mainlogo: http://ow3lvmu74.bkt.clouddn.com/images/MainLogo.png
 
 Nav:
     Home_name: 主页
@@ -63,7 +64,7 @@ Nav:
 MainFirst:
     name: 欢迎来 Tiny Calf
     description: 本站目前只包含精选文章，更多内容请访问旧站
-    pic_url: /images/me.jpg
+    pic_url: http://ow3lvmu74.bkt.clouddn.com/images/me.jpg
     goto_ulr: ""
 
 Gallery :

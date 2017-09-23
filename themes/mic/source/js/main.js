@@ -111,15 +111,36 @@
 			$navPanelToggle, $navPanel, $navPanelInner;
 
 		// Disable animations/transitions until the page has loaded.
-			setTimeout(function(){
-				$body.removeClass('is-loading');
-			},3000);
+			// setTimeout(function(){
+			// 	$body.removeClass('is-loading');
+			// },3000);
 
 
 			$window.on('load', function() {
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
 				}, 100);
+				//百度统计
+				var _hmt = _hmt || [];
+	      (function() {
+	        var hm = document.createElement("script");
+	        hm.src = "https://hm.baidu.com/hm.js?d1297bec8a96297b37ff6a585dade558";
+	        var s = document.getElementsByTagName("script")[0];
+	        s.parentNode.insertBefore(hm, s);
+	      })();
+				//百度自动提交
+				(function(){
+	          var bp = document.createElement('script');
+	          var curProtocol = window.location.protocol.split(':')[0];
+	          if (curProtocol === 'https') {
+	              bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+	          }
+	          else {
+	              bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+	          }
+	          var s = document.getElementsByTagName("script")[0];
+	          s.parentNode.insertBefore(bp, s);
+	      })();
 			});
 
 		// Prioritize "important" elements on medium.

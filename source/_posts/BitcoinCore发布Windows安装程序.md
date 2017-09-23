@@ -6,7 +6,8 @@ tags:
 - 比特币
 - BitcoinCore
 categories: 区块链
-thumbnail: /images/posts/windows.jpg
+thumbnail: http://ow3lvmu74.bkt.clouddn.com/images/WindowsBackground.jpg
+author: Jonathan
 ---
 
 > 本篇简单记录一下使用交叉编译发布Windows安装程序的方法
@@ -57,5 +58,5 @@ make
 make install DESTDIR=/mnt/c/workspace/bitcoin
 ```
 ## 截图
-![](http://www.tiny-calf.com/content/images/2017/09/wxid_8r5voq3xpoug22_1504340516885_87.png)
-![](http://www.tiny-calf.com/content/images/2017/09/wxid_8r5voq3xpoug22_1504340482495_79.png)
+![](/images/windows1.png)
+![](/images/windows2.png)
