@@ -39,33 +39,6 @@
 		#tagsList a:hover {color: #FF0000;letter-spacing: 2px;}
 	</style>
 
-	<!-- 百度统计 -->
-	<script>
-		var _hmt = _hmt || [];
-		(function() {
-			var hm = document.createElement("script");
-			hm.src = "https://hm.baidu.com/hm.js?d1297bec8a96297b37ff6a585dade558";
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(hm, s);
-		})();
-	</script>
-
-	<!-- 百度自动提交 -->
-	<script>
-		(function(){
-		    var bp = document.createElement('script');
-		    var curProtocol = window.location.protocol.split(':')[0];
-		    if (curProtocol === 'https') {
-		        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-		    }
-		    else {
-		        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-		    }
-		    var s = document.getElementsByTagName("script")[0];
-		    s.parentNode.insertBefore(bp, s);
-		})();
-</script>
-
 </head>
     
 		
@@ -156,39 +129,50 @@
 
 
         <div id="main" >
-            <div class ="post_page_title_img" style="height: 25rem;background-image: url(/images/NodeJsBackground.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(http://ow3lvmu74.bkt.clouddn.com/NodeJsBackground.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
                 <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >Nodejs快速安装</h2></a>
             </div>
             <!-- Post -->
             <div class="typo tinycalf" style="padding: 3rem;">
+              <span id="busuanzi_container_page_pv" style="color:#7c879c">
+                作者：Jonathan &nbsp;&nbsp;日期：2017-07-20 &nbsp;&nbsp;阅读量：<span id="busuanzi_value_page_pv"></span>次
+              </span>
                 <blockquote>
 <p>用安装包上传安装实在太慢了 <br>
 而且多个版本的node也没法发控制 <br>
 我们使用nvm工具会快的多</p>
 </blockquote>
-<h1 id="-">假设环境设定</h1>
+<h2 id="-">假设环境设定</h2>
 <ul>
 <li>ubuntu v16.04</li>
-<li>没有安装npm和node<h1 id="-npm">安装 npm</h1>
+<li>没有安装npm和node</li>
+</ul>
+<h2 id="-npm">安装 npm</h2>
 <pre><code class="lang-bash">$ apt install npm
 </code></pre>
-<h1 id="-nvm">安装 nvm</h1>
-<a href="https://github.com/creationix/nvm" target="_blank" rel="external">找 nvm git 库点我</a> 里面也有安装说明<br>
-执行：<pre><code class="lang-bash">$ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+<h2 id="-nvm">安装 nvm</h2>
+<p><a href="https://github.com/creationix/nvm" target="_blank" rel="external">找 nvm git 库点我</a> 里面也有安装说明<br>
+执行：</p>
+<pre><code class="lang-bash">$ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 </code></pre>
-再执行：<pre><code class="lang-bash"><span class="built_in">export</span> NVM_DIR=<span class="string">"<span class="variable">$HOME</span>/.nvm"</span>
+<p>再执行：</p>
+<pre><code class="lang-bash"><span class="built_in">export</span> NVM_DIR=<span class="string">"<span class="variable">$HOME</span>/.nvm"</span>
 [ -s <span class="string">"<span class="variable">$NVM_DIR</span>/nvm.sh"</span> ] &amp;&amp; . <span class="string">"<span class="variable">$NVM_DIR</span>/nvm.sh"</span>
 </code></pre>
-输入 <code>nvm</code> 看看有没有正确安装<h1 id="-nodejs">安装nodejs</h1>
-假设我们要装 v4版本的node：<pre><code class="lang-bash">$ nvm install v4.*
+<p>输入 <code>nvm</code> 看看有没有正确安装</p>
+<h2 id="-nodejs">安装nodejs</h2>
+<p>假设我们要装 v4版本的node：</p>
+<pre><code class="lang-bash">$ nvm install v4.*
 </code></pre>
-如果还装过别的版本则执行一下来切换版本：<pre><code class="lang-bash">$ nvm use 4
+<p>如果还装过别的版本则执行一下来切换版本：</p>
+<pre><code class="lang-bash">$ nvm use 4
 </code></pre>
-<h1 id="ok-">OK，安装好了，快吧～</h1>
-</li>
-</ul>
+<h2 id="ok-">OK，安装好了，快吧～</h2>
+
 
             </div>
+
+
 
             <!-- Post Comments -->
             
@@ -214,6 +198,72 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
 
 
         </div>
+
+        <div id="main" style="background-color: transparent; padding:0;">
+<section class="link_container" style="margin-top: 0; background-color: transparent; ">
+    <div class="link_row">
+
+  
+    <div class="6u 12u(narrower)" style='display:inline-block;'>
+        <section class="link_box special">
+            <a href="/2017/08/09/搭建bws和copay/" >
+              <div class="page_title" style="background-image: url(http://ow3lvmu74.bkt.clouddn.com/images/WalletBackground.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                  <!--标题-->
+                    <h2 class="page_title_text"> 搭建轻量级数字货币钱包</h2>
+                  <!--段落-->
+              </div>
+            </a>
+            <div class="home-post-info">
+                <!-- Author Avatar -->
+                <div class="home-post-info-author-avatar">
+                    <h6><span class="home-post-info-data">2017-08-09</span></h6>
+                    <div class="home-post-info-Category">
+                        <!-- Category -->
+                        <span>
+                          <h6>
+                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/"><a class="post_category-link" href="/categories/区块链/">区块链</a></a>
+                          </h6>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+  
+
+  
+
+  
+      <div class="6u 12u(narrower)" style='display:inline-block;'>
+        <section class="link_box special">
+            <a href="/2017/07/20/搭建区块链浏览器/" >
+              <div class="page_title" style="background-image: url(http://ow3lvmu74.bkt.clouddn.com/images/BlockChainBackground.jpeg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                  <!--标题-->
+                    <h2 class="page_title_text"> 搭建区块链浏览器 insight</h2>
+                  <!--段落-->
+              </div>
+            </a>
+            <div class="home-post-info">
+                <!-- Author Avatar -->
+                <div class="home-post-info-author-avatar">
+                    <h6><span class="home-post-info-data">2017-07-20</span></h6>
+                    <div class="home-post-info-Category">
+                        <!-- Category -->
+                        <span>
+                          <h6>
+                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/"><a class="post_category-link" href="/categories/区块链/">区块链</a></a>
+                          </h6>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+  
+
+</div></section></div>
+
+
         <!-- Copyright 版权 start -->
                 <div id="copyright">
             <ul>
@@ -226,6 +276,8 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
         </div>
 
     </div>
+
+
     <script src="/js/prism-tinycalf.js"></script>
 </body>
 

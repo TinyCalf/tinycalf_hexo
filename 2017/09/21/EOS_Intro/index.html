@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<!-- 百度验证 -->
+	<meta name="baidu-site-verification" content="TkwOB1XRD3" />
+	<link rel="bookmark"  type="image/x-icon"  href="/img/favicon-180x180.png"/>
+	 <link rel="shortcut icon" href="/img/favicon-180x180.png">
+	
+			
+    <title>
+    Tiny Calf
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    
+    	<!-- <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
+      <script async src="/js/busuanzi.min.js"></script>
+	
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+
+			    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+
+	<!-- 标签云的样式 -->
+	<style type="text/css">
+		body {background: #24313d;}
+		#tagsList {position: relative;}
+		#tagsList a {position: absolute;top: 0px;left: 0px;font-family: Microsoft YaHei;color: #fff;font-weight: bold;text-decoration: none;padding: 3px 6px;}
+		#tagsList a:hover {color: #FF0000;letter-spacing: 2px;}
+	</style>
+
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/typo.css" />
+<link rel="stylesheet" href="/css/screen.css" />
+<link rel="stylesheet" href="/css/prism_tinycalf.css" />
+
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">
+      TINY CALF
+
+    </a>
+</header>
+
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  -->
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   -->
+	        
+	        <!-- archives  归档   -->
+	        
+
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/categories/区块链/" title="区块链">
+		                区块链
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/categories/Linux/" title="Linux">
+		                Linux
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/categories/nodejs/" title="Nodejs">
+		                Nodejs
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="http://test.tiny-calf.com" title="转到旧站">
+		                转到旧站
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                
+                    <li><a href="#" class="icon fa-weixin"><span class="label">Wechat</span></a></li>
+                
+                
+                    <li><a href="#" class="icon fa-qq"><span class="label">QQ</span></a></li>
+                
+		            
+		                <li><a href="https://github.com/Jonathan-ZHU" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		            
+		            
+		            
+		            
+                
+                    <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                
+
+			</ul>
+</nav>
+
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(http://ow3lvmu74.bkt.clouddn.com/images/EOSBackground.jpeg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >EOS简介--区块链操作系统</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo tinycalf" style="padding: 3rem;">
+              <span id="busuanzi_container_page_pv" style="color:#7c879c">
+                作者：Jonathan &nbsp;&nbsp;日期：2017-09-21 &nbsp;&nbsp;阅读量：<span id="busuanzi_value_page_pv"></span>次
+              </span>
+                <blockquote>
+<p>本篇为steemit论坛的英文文章搬运,翻译自@trogdor的 Introduction to EOS: the Epic (blockchain) Operating System，原文为地址为: <br>
+<a href="https://steemit.com/eos/@trogdor/introduction-to-eos-the-epic-blockchain-operating-system" target="_blank" rel="external">https://steemit.com/eos/@trogdor/introduction-to-eos-the-epic-blockchain-operating-system</a></p>
+</blockquote>
+<h2 id="eos-">EOS：共识机制下的史诗级、企业级块链操作系统</h2>
+<p>EOS是一个区块链操作系统，它提供了数据库，账号许可，调度，认证和互联网应用通信，这极大地提高了智能商业开发的效率，它使用了并行计算使得把区块链拓展到百万用户和每秒百万次交易成为可能。
+为了介绍EOS，我们首先需要理解现在区块链技术的情况，并且知道我们是怎么走到现在的。比特币引入了公共账本系统的概念，以太坊证明了对去中心化应用的需求的普遍性。然而，为了看到区块链真正的成为主流，我们必须能处理现实世界中的交易需求。比如，信用卡网络需要能在每秒内处理20,000笔交易。facebook要每秒处理52,000笔交易，这还不包括post和其它行为。金融行业每秒处理100,000交易。
+而比特币由于区块大小的限制，目前每秒只能处理大约3笔交易，以太坊由于燃料(gas)限制，每秒只能处理30笔交易。目前区块链技术最重要的限制是单线程的性能。
+<img src="/images/eos1.png" alt=""></p>
+<h2 id="-">我们是如何走到今天的</h2>
+<p>2013年，去中心化交易所bts创建，2014年发布。它使用代理pos方式，只需3秒确认。bts的第一版的部分理念和技术来自比特币，但是这依然无法达到一个交易所对性能的要求。2015年我们开发了石墨烯系统，完全重写了bts。这使得一台机器能每秒处理100000笔交易，并且在全球压力测试中达到了每秒18000笔交易。用户名系统也与bts一同发布，这就把用户名与密钥区分开来，使得企业组织能被其它使用者组织批准审核。2016年发布了steem，steem使用了一些新的概念。社交媒体用户不想每次投票都要支付，他们想要账号的恢复等等。steem还把原本浪费在挖矿的回报重新分发给在区块链上发问的人，使得成千上万的人参与了进来。此时，每天在steem和bts上的真实交易超过了其它主要区块链的总和。steem上的男女用户比也超过了其它区块链。然而，steem和bts还是应用型区块链。如果你想在一个区块链上运行多个app，还需要解决拓展性问题。</p>
+<h2 id="-">距离主流社会接受区块链还有明显的障碍</h2>
+<p>如果你看看现在的区块链行业，你会发现每个人都想建立智能商业，去中心化组织等等，在此过程中，开发者必须从零开始搭建去中心计算机来运行他们的智能app。由此，所有的app开发者都必须去解决相同的问题：账户系统，恢复过程，等等等等，其实他们缺少的是一个操作系统，由操作系统提供每个应用都需要的通用功能，这样这些应用就能专注于他们自己的业务逻辑。举个例子，bts和steem之间在功能上十分类似，只是在业务逻辑上有些许差别。EOS的目标是提供一个操作系统，此操作系统提供了所有核心的功能，app开发者只需要专注于自己的业务逻辑即可。
+<img src="/images/eos2.png" alt=""></p>
+<h2 id="dapp-">DAPP需要什么？</h2>
+<p>为了成功，DAPP必须能从浏览器访问（当然，可下载的app模式也可以），能拓展百万用户以获取回报，对于app的用户应当免费（尤其是社交媒体用户），应能快速确认，能升级，能用用户友好的用户名登陆，能恢复账户，还能修复bug。EOS为开发者提供了所有这些功能。EOS为智能合约提供了并行处理，异步通信等功能。将提供了数据库，账号许可，调度，认证和互联网应用通信功能。比如，bts和steem可以在EOS上并行运行，而由于异步通信，多余的节点和整个簇都能在交易处理的后台运行。EOS是第一个区块链操作系统。它为你的应用提供了数据库，schema，管理数据的多种维度。提供账号许可系统，账号恢复系统，处理多任务，处理认证以及密钥管理，因此，你可以专注与业务逻辑而不是密码学，EOS还负责处理所有的互联网应用通信。EOS使得我们能专注与构建app，使得我们的用户不需要强制性的燃料，不需要在使用前做别的事情，它使得开发者能快速地构建app，我们对此翘首期盼。
+<img src="/images/eos3.png" alt=""></p>
+<h2 id="eos-">EOS旨在扩展性，灵活性和可用性</h2>
+<p>扩展性：EOS通过并行执行和异步通信可支持1000个商业级的dapp。它把认证从行为(action)中分离。举例来说，交易就是减少一个账户的余额，然后增加另一个账户的余额的行为，但是所有的认证步骤都在验证签名，确保其有充足的资金，等等，但是认证步骤其实只需要在区块产生时执行一次即可。区块在被添加到区块链之后，你不需要在去认证一次。EOS把源码放到区块链上，使得智能合约的内容对于用户来说是可读的，每个人都能浏览它都内容，开发者可以优化它，并在不同都机器上编译。同样，一些额外的重要的操作也不需要燃料。
+灵活性：由于EOS将使用pos机制，如果一个app失败了，选举的区块生产者可以冻结此app，直到修复了bug并升级代码。因此，如果用EOS来实现DAO，它就可以被冻结，修复和升级，而不用硬分叉或中断链上的其它应用。在EOS上，你也可以只运行你需要的app。如果你想运行一个交易所app，那么你不需要运行社交媒体app，此时你的本地节点只需要处理那些你关心的数据即可。不是每个节点都需要运行与保存区块链的所有状态。EOS会公开源码，提供通用的基于角色的许可机制。
+可用性：EOS将提供一个web工具包用于界面开发，自描述的界面，自描述的数据库schema。
+治理：pos机制选举块生产者。一个合法的宪法(constitution)建立一个解决争端的司法。EOS将包括一个自组织的社区，社区通过投票产生。每个账号都要签署宪法（constitution）。这其中的一个想法是每笔交易可能会包含当前宪法的状态的哈希值。宪法本身是能被修改和演化的，并包含了区块链试图表达的意图，以及引导解决争端的方向。
+<img src="/images/eos4.png" alt=""></p>
+<h2 id="eos-">EOS代币</h2>
+<p>EOS有一个代币：EOS，它的运作原理与steem相同。与其它系统不同的是，它免费，它不会被消耗。如果你拥有网络的1%，那么你就拥有1%的计算能力，1%的带宽，1%的网络存储。你可以把它出租给其它人或者用在你自己的app上。如果你为你的app筹集到了足够的EOS来支撑它的使用，你无需担心需要支付费用，因为，它是“拥有”模式，而不是“出租”模式。网络带宽可以通过一个自由市场生态系统分配。区块的生产由投票控制，就像传统的pos机制那样。EOS的供应会分配为三种不同的智能合约，这些将由投票决定。多余的供应会被销毁，只需要在智能合约中锁定它们即可，这可以防止它们被使用（消除通胀），或者它们可以被用于去中心化的治理（比如steem），或者中心化的治理（比如以太坊基金，EOS基金）。</p>
+<h2 id="-">当前开发团队</h2>
+<p>Brendan Blumer：CEO
+Daniel Larimer：CTO
+Kokuei（Guo）Yuan：总裁
+Andrew Bliss：CFO
+Michael Cao：合伙人
+Ian Grigg：合伙人
+Brock Pierce：合伙
+人李晓莱：合伙人
+Wendy Lee：CLO
+Bo Shen：合伙人</p>
+
+
+            </div>
+
+
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 changyan -->
+<div id="changyan-comment">
+    <!--PC和WAP自适应版-->
+<div id="SOHUCS" sid="2017/09/21/EOS_Intro/"  ></div>
+<script type="text/javascript">
+(function(){
+var appid = 'cytdxLe3B';
+var conf = 'fa28a0faa37516b9a4d5ef03d78d65b2';
+var width = window.innerWidth || document.documentElement.clientWidth;
+if (width < 960) {
+window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+
+</div>
+<style>
+    #changyan-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+
+        <div id="main" style="background-color: transparent; padding:0;">
+<section class="link_container" style="margin-top: 0; background-color: transparent; ">
+    <div class="link_row">
+
+  
+
+  
+    <div class="6u 12u(narrower)" style='display:inline-block;visibility:hidden'>
+      <section class="link_box special">
+          <a href="/2017/09/09/node+nginx搭建SSL/" >
+            <div class="page_title" style="background-image: url(http://ow3lvmu74.bkt.clouddn.com/image/postbackgroundHttpsBackground.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                <!--标题-->
+                  <h2 class="page_title_text"> node+nginx配置ssl证书</h2>
+                <!--段落-->
+            </div>
+          </a>
+          <div class="home-post-info">
+              <!-- Author Avatar -->
+              <div class="home-post-info-author-avatar">
+                  <h6><span class="home-post-info-data">2017-09-09</span></h6>
+                  <div class="home-post-info-Category">
+                      <!-- Category -->
+                      <span>
+                        <h6>
+                          <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/"><a class="post_category-link" href="/categories/Linux/">Linux</a></a>
+                        </h6>
+                      </span>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </div>
+  
+
+  
+      <div class="6u 12u(narrower)" style='display:inline-block;'>
+        <section class="link_box special">
+            <a href="/2017/09/09/node+nginx搭建SSL/" >
+              <div class="page_title" style="background-image: url(http://ow3lvmu74.bkt.clouddn.com/image/postbackgroundHttpsBackground.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                  <!--标题-->
+                    <h2 class="page_title_text"> node+nginx配置ssl证书</h2>
+                  <!--段落-->
+              </div>
+            </a>
+            <div class="home-post-info">
+                <!-- Author Avatar -->
+                <div class="home-post-info-author-avatar">
+                    <h6><span class="home-post-info-data">2017-09-09</span></h6>
+                    <div class="home-post-info-Category">
+                        <!-- Category -->
+                        <span>
+                          <h6>
+                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/"><a class="post_category-link" href="/categories/Linux/">Linux</a></a>
+                          </h6>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+  
+
+</div></section></div>
+
+
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>  京ICP备17029524号</li>
+            </ul>
+            
+            	<span id="busuanzi_container_site_pv">2017总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+
+    </div>
+
+
+    <script src="/js/prism-tinycalf.js"></script>
+</body>
+
+
+
+
+ 	
+
+</html>

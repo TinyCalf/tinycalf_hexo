@@ -39,33 +39,6 @@
 		#tagsList a:hover {color: #FF0000;letter-spacing: 2px;}
 	</style>
 
-	<!-- 百度统计 -->
-	<script>
-		var _hmt = _hmt || [];
-		(function() {
-			var hm = document.createElement("script");
-			hm.src = "https://hm.baidu.com/hm.js?d1297bec8a96297b37ff6a585dade558";
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(hm, s);
-		})();
-	</script>
-
-	<!-- 百度自动提交 -->
-	<script>
-		(function(){
-		    var bp = document.createElement('script');
-		    var curProtocol = window.location.protocol.split(':')[0];
-		    if (curProtocol === 'https') {
-		        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-		    }
-		    else {
-		        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-		    }
-		    var s = document.getElementsByTagName("script")[0];
-		    s.parentNode.insertBefore(bp, s);
-		})();
-</script>
-
 </head>
     
 		
@@ -156,11 +129,14 @@
 
 
         <div id="main" >
-            <div class ="post_page_title_img" style="height: 25rem;background-image: url(/images/posts/blockchain.jpeg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(http://ow3lvmu74.bkt.clouddn.com/images/BlockChainBackground.jpeg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
                 <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >搭建区块链浏览器 insight</h2></a>
             </div>
             <!-- Post -->
             <div class="typo tinycalf" style="padding: 3rem;">
+              <span id="busuanzi_container_page_pv" style="color:#7c879c">
+                作者：Jonathan &nbsp;&nbsp;日期：2017-07-20 &nbsp;&nbsp;阅读量：<span id="busuanzi_value_page_pv"></span>次
+              </span>
                 <blockquote>
 <p><em>bitcore</em> 是搭建区块链浏览器 <em>insight</em> 和半中心化钱包 <em>copay</em> 的核心;由于 <em>bitcore</em> 完全基于 <em>bitcoin core</em> 所编译的二进制程序 <em>bitcoind</em> ，所以我们完全可以用我们已经开发的山寨币来作为bitcore的基础，开发我们自己的区块链浏览器和钱包</p>
 </blockquote>
@@ -182,7 +158,7 @@
 <br>
 <em>另外，本地调试也是没问题的,看着办吧</em></p>
 <h3 id="-node-js-">安装<em>Node.js</em></h3>
-<p>我单独写过nvm快速安装教程，<a href="http://www.tiny-calf.com/node-jskuai-su-an-zhuang-chao-ji-kuai/">点我</a>。</p>
+<p>我单独写过nvm快速安装教程，<a href="http://www.tiny-calf.com/2017/07/20/Node.js%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85/">传送门</a>。</p>
 <h2 id="-bitcore-">安装<em>bitcore</em></h2>
 <h3 id="-bitcore-">全局安装<em>bitcore</em></h3>
 <pre><code class="lang-bash">npm install -g bitcore
@@ -295,7 +271,10 @@ $ nohup bitcored &amp;
 </code></pre>
 <p>虽然 <em>bitcoind</em> 在运行的时候会找到默认端口，但是 <em>insight-api</em> 会搜索该配置文件，如果没有设置的话默认还是8332</p>
 
+
             </div>
+
+
 
             <!-- Post Comments -->
             
@@ -321,6 +300,46 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
 
 
         </div>
+
+        <div id="main" style="background-color: transparent; padding:0;">
+<section class="link_container" style="margin-top: 0; background-color: transparent; ">
+    <div class="link_row">
+
+  
+    <div class="6u 12u(narrower)" style='display:inline-block;'>
+        <section class="link_box special">
+            <a href="/2017/07/20/Node.js快速安装/" >
+              <div class="page_title" style="background-image: url(http://ow3lvmu74.bkt.clouddn.com/NodeJsBackground.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                  <!--标题-->
+                    <h2 class="page_title_text"> Nodejs快速安装</h2>
+                  <!--段落-->
+              </div>
+            </a>
+            <div class="home-post-info">
+                <!-- Author Avatar -->
+                <div class="home-post-info-author-avatar">
+                    <h6><span class="home-post-info-data">2017-07-20</span></h6>
+                    <div class="home-post-info-Category">
+                        <!-- Category -->
+                        <span>
+                          <h6>
+                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/"><a class="post_category-link" href="/categories/nodejs/">nodejs</a></a>
+                          </h6>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+  
+
+  
+
+  
+
+</div></section></div>
+
+
         <!-- Copyright 版权 start -->
                 <div id="copyright">
             <ul>
@@ -333,6 +352,8 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
         </div>
 
     </div>
+
+
     <script src="/js/prism-tinycalf.js"></script>
 </body>
 

@@ -39,33 +39,6 @@
 		#tagsList a:hover {color: #FF0000;letter-spacing: 2px;}
 	</style>
 
-	<!-- 百度统计 -->
-	<script>
-		var _hmt = _hmt || [];
-		(function() {
-			var hm = document.createElement("script");
-			hm.src = "https://hm.baidu.com/hm.js?d1297bec8a96297b37ff6a585dade558";
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(hm, s);
-		})();
-	</script>
-
-	<!-- 百度自动提交 -->
-	<script>
-		(function(){
-		    var bp = document.createElement('script');
-		    var curProtocol = window.location.protocol.split(':')[0];
-		    if (curProtocol === 'https') {
-		        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-		    }
-		    else {
-		        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-		    }
-		    var s = document.getElementsByTagName("script")[0];
-		    s.parentNode.insertBefore(bp, s);
-		})();
-</script>
-
 </head>
     
 		
@@ -156,11 +129,14 @@
 
 
         <div id="main" >
-            <div class ="post_page_title_img" style="height: 25rem;background-image: url(/images/Internet2.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(http://ow3lvmu74.bkt.clouddn.com/image/postbackgroundHttpsBackground.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
                 <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >node+nginx配置ssl证书</h2></a>
             </div>
             <!-- Post -->
             <div class="typo tinycalf" style="padding: 3rem;">
+              <span id="busuanzi_container_page_pv" style="color:#7c879c">
+                作者：Jonathan &nbsp;&nbsp;日期：2017-09-09 &nbsp;&nbsp;阅读量：<span id="busuanzi_value_page_pv"></span>次
+              </span>
                 <blockquote>
 <p>本节记录一下node.js项目如何配合nginx配置ssl证书，主要用来解决copay的iOS客户端链接bws时出现的BADREQUEST问题，顺便优化一下url</p>
 </blockquote>
@@ -237,12 +213,15 @@ sudo ln -s ../sites-available/bws ./
 <pre><code class="lang-bash">sudo /usr/sbin/nginx -s reload
 </code></pre>
 <p>项目的各个配置文件实际上不用改，因为用的都是 <em>localhost</em> ，这样的话直接运行节点，看看能不能正常访问：</p>
-<p><img src="http://www.tiny-calf.com/content/images/2017/07/2017-07-24-09-14-52----.png" alt=""></p>
+<p><img src="/images/insight.png" alt=""></p>
 <p>这样就说说明配置正确了，bws的话基本也没问题了，运行 <em>copay</em> 客户端看看是不是能正常使用了，记得搜索项目中所有带有 <em>bws/api</em> 的uri，都换成自己的好了。</p>
 <h2 id="-">完成</h2>
 <p>如果配置全都正确现在iOS客户端应该已经可以正常使用了</p>
 
+
             </div>
+
+
 
             <!-- Post Comments -->
             
@@ -268,6 +247,72 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
 
 
         </div>
+
+        <div id="main" style="background-color: transparent; padding:0;">
+<section class="link_container" style="margin-top: 0; background-color: transparent; ">
+    <div class="link_row">
+
+  
+    <div class="6u 12u(narrower)" style='display:inline-block;'>
+        <section class="link_box special">
+            <a href="/2017/09/21/EOS_Intro/" >
+              <div class="page_title" style="background-image: url(http://ow3lvmu74.bkt.clouddn.com/images/EOSBackground.jpeg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                  <!--标题-->
+                    <h2 class="page_title_text"> EOS简介--区块链操作系统</h2>
+                  <!--段落-->
+              </div>
+            </a>
+            <div class="home-post-info">
+                <!-- Author Avatar -->
+                <div class="home-post-info-author-avatar">
+                    <h6><span class="home-post-info-data">2017-09-21</span></h6>
+                    <div class="home-post-info-Category">
+                        <!-- Category -->
+                        <span>
+                          <h6>
+                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/"><a class="post_category-link" href="/categories/区块链/">区块链</a></a>
+                          </h6>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+  
+
+  
+
+  
+      <div class="6u 12u(narrower)" style='display:inline-block;'>
+        <section class="link_box special">
+            <a href="/2017/09/09/搭建比特币核心运行环境/" >
+              <div class="page_title" style="background-image: url(http://ow3lvmu74.bkt.clouddn.com/image/BitcoinBackground.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                  <!--标题-->
+                    <h2 class="page_title_text"> 搭建比特币核心运行环境</h2>
+                  <!--段落-->
+              </div>
+            </a>
+            <div class="home-post-info">
+                <!-- Author Avatar -->
+                <div class="home-post-info-author-avatar">
+                    <h6><span class="home-post-info-data">2017-09-09</span></h6>
+                    <div class="home-post-info-Category">
+                        <!-- Category -->
+                        <span>
+                          <h6>
+                            <a class="post_category-link" href="http://localhost:4000/categories/Algorithm/"><a class="post_category-link" href="/categories/区块链/">区块链</a></a>
+                          </h6>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+  
+
+</div></section></div>
+
+
         <!-- Copyright 版权 start -->
                 <div id="copyright">
             <ul>
@@ -280,6 +325,8 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
         </div>
 
     </div>
+
+
     <script src="/js/prism-tinycalf.js"></script>
 </body>
 
