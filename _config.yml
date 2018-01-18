@@ -82,9 +82,9 @@ theme: mic
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Jonathan-ZHU/tinycalf_hexo.git
-  branch: deployment
-  message: deploy_20180101
+  repo: https://github.com/TinyCalf/TinyCalf.github.io.git
+  branch: master
+  message: deploy_20180119
 
 
 

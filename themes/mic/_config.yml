@@ -24,7 +24,7 @@ Nav:
     icon:
         github:
             use: true
-            link: https://github.com/Jonathan-ZHU
+            link: https://github.com/TinyCalf
         Twitter:
             use: false
             link:
@@ -56,14 +56,12 @@ Nav:
             link: "/categories/Linux/"
         Nodejs:
             link: "/categories/nodejs/"
-        转到旧站:
-            link: "http://test.tiny-calf.com"
         #自定义标签名
         #   link：“路径”
 
 MainFirst:
     name: 欢迎来 Tiny Calf
-    description: 本站目前只包含精选文章，更多内容请访问旧站
+    description: 区块链研究小站，只谈技术，不谈token
     pic_url: http://ow3lvmu74.bkt.clouddn.com/images/me.jpg
     goto_ulr: ""
 
