@@ -48,14 +48,14 @@ Nav:
         #     link: "/about/"
         # 团队 :
         #     link: "/group/"
-        # 图库 :
-        #     link: "/gallery/"
         区块链:
             link: "/categories/区块链/"
         Linux:
             link: "/categories/Linux/"
         Nodejs:
             link: "/categories/nodejs/"
+        图库 :
+            link: "/gallery/"
         #自定义标签名
         #   link：“路径”
 
@@ -66,8 +66,8 @@ MainFirst:
     goto_ulr: ""
 
 Gallery :
-    title: Mr.metro
-    description: Just another fine responsive
+    title: Tiny Calf
+    description: Do something awesome
 
 # ---------------------------------------------------------------
 # Style Settings
