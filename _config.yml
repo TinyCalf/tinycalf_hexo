@@ -6,8 +6,8 @@
 title: Tiny Calf
 subtitle: do something awesome
 description:
-author: Jonathan
-language:
+author: TinyCalf
+language: zh-CN
 timezone:
 version:
 Intro:
@@ -24,7 +24,7 @@ permalink_defaults:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
+tag_dir: themes/next/layout/
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
@@ -76,7 +76,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: mic
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

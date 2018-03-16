@@ -1,13 +1,6 @@
 ---
-title: tags
+title: 标签
 date: 2017-09-09 16:23:26
+type: "tags"
+comments: false
 ---
-
-<% if (site.tags.length){ %>
-  <div class="widget-wrap">
-    <h3 class="widget-title"><%= __('tagcloud') %></h3>
-    <div class="widget tagcloud">
-      <%- tagcloud() %>
-    </div>
-  </div>
-<% } %>
