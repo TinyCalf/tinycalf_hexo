@@ -2,12 +2,10 @@
 title: Solidity开发环境搭建及简单合约编写测试
 date: 2018-03-16 14:17:47
 tags:
-- Solidity
 - geth
 - Ethereum
-- blockchain
-- Smart Contract
-categories: Smart Contract
+- Blockchain
+categories: Solidity
 author: TinyCalf
 ---
 
