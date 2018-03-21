@@ -8,7 +8,7 @@
       <div class="site-meta-headline">
         <a>
           <img class="custom-logo-image" src="{{ theme.custom_logo.image }}"
-               alt="{{ config.title }}" style="width:70%"/>
+               alt="{{ config.title }}" style="width:150px"/>
         </a>
       </div>
     {% endif %}

@@ -108,7 +108,7 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  # about: /about/ || user
+  about: /about/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
@@ -148,7 +148,7 @@ social:
   GitHub: https://github.com/TinyCalf || github
   E-Mail: mailto:839560084@qq.com || envelope
   StackOverflow: https://stackoverflow.com/users/7047194/jonathan-zhu || stack-overflow
-  Wechat: gannicus199399 || wechat
+  Wechat: /about/ || wechat
   # Twitter: https://twitter.com/yourname || twitter
   # FB Page: https://www.facebook.com/yourname || facebook
   # VK Group: https://vk.com/yourname || vk
@@ -313,7 +313,7 @@ android_chrome_color: "#222"
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: true
+  enabled: false
   image: /images/logo.png
 
 # Code Highlight theme
@@ -440,7 +440,7 @@ pangu: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 9d9139a8cd69f64bff973069819adf72
 
 # Disqus
 disqus:
@@ -463,9 +463,9 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  enable: true
+  appid:  W7fnson0Rdpm3nyj9vrN55ta-gzGzoHsz # your leancloud application appid
+  appkey: x2Tt2444c9CeLvNT9phuInev # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
@@ -678,7 +678,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
