@@ -468,7 +468,7 @@ valine:
   appkey: x2Tt2444c9CeLvNT9phuInev # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
+  placeholder: 想说什么就说点吧 # comment box placeholder
   avatar: mm # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
@@ -604,9 +604,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: W7fnson0Rdpm3nyj9vrN55ta-gzGzoHsz #<app_id>
+  app_key: x2Tt2444c9CeLvNT9phuInev #<app_key>
   # LeanCloud Counter Security Plugin (beta, currently under the testing).
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in lc counter and just want to use it directly

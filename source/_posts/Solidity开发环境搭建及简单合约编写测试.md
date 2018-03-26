@@ -235,7 +235,7 @@ contract TokenERC20 {
 "0xfc9f5c897eda12d1131ecd7b7db2fa67fb28c24c","1000000000"
 ```
 记得把地址改成你创建的另一个，点击transfer，这时后又会显示pending，正如我所说，这个方法本身是一个交易。等到新块生成，交易确认以后，我们就可以在左边的输出框中点debug来调试这笔交易，如图
-![](/images/solidity2.png)
+![](/images/solidity3.png)
 这个操作界面我就不多说了，还是比较简单明了的，能逐步运行函数，检查每个变量的值。
 
 # 简单解释下合约的原理
