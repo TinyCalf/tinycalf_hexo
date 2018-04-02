@@ -18,6 +18,7 @@ author: Jonathan
 * Windows 10 64位 （推荐使用64位）
 * Ubuntu 14.04.5 desktop amd64 虚拟机（14版ubuntu编译windows是最不容易出现问题的）
 * Bitcoin Core v0.14.0(旧版本在出了linux的平台上发布问题比较多，因此这里用了比较新的版本)
+<!-- more -->
 
 # 交叉编译
 ## Unix环境搭建

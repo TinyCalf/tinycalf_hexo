@@ -19,7 +19,7 @@ author: Jonathan
 * 命令行的API可以参考这个 https://github.com/ethereum/go-ethereum/wiki/Management-APIs
 * web3,即javascript的API，使用方法看 https://github.com/ethereum/wiki/wiki/JavaScript-API#web3ethgetbalance
 * geth下载地址 https://geth.ethereum.org/downloads/
-
+<!-- more -->
 
 ### 启动geth
 没错，客户端下载下来就一个geth文件，有三种方法可以启动，按自己的需要来

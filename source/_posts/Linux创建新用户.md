@@ -11,6 +11,7 @@ $ useradd -r -m YOURNAME
 ```
 * **设置密码** 一定要用这种形式，接着输入一下密码，不然会显示密码无效
 ```
+<!-- more -->
 $ passwd YOURNAME
 ```
 结果是这样的

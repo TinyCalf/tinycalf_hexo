@@ -18,7 +18,7 @@ author: Jonathan
 ```bash
 BADREQUEST Required argument name missing
 ```
-
+<!-- more -->
 导致客户端无法创建钱包、无法生成地址。原因在copay的github讨论中有涉及到：<br>
 https://github.com/bitpay/bitcore-wallet-service/issues/628
 这个问题目前只出现在了ios上，原因是域名没有ssl证书，下载或者申请一个，用nginx解析一下即可

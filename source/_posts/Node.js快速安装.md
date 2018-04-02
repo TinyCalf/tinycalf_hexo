@@ -17,7 +17,7 @@ author: Jonathan
 ## 假设环境设定
 *  ubuntu v16.04
 *  没有安装npm和node
-
+<!-- more -->
 ## 安装 npm
 ```bash
 $ apt install npm

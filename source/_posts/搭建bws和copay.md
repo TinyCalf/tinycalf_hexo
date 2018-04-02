@@ -16,7 +16,7 @@ author: Jonathan
 ## 准备条件
 
 确保你已经成功编译和运行了 bitcoin core 正如我最早的几篇教程所讲，另外确保你已经成功搭建 bitcore 和区块链浏览器 insight ，因为我是接着那一篇来讲的，没有的话看这里：<br>
-
+<!-- more -->
 [创造数字货币（4）-- 搭建区块链浏览器](http://www.tiny-calf.com/chuang-zao-shu-zi-huo-bi-4-ji-yu-bitcorede-qu-kuai-lian-liu-lan-qi/)<br>
 
 ## 安装 *BWS*

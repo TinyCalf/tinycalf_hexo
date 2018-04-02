@@ -18,6 +18,7 @@ author: TinyCalf
 
 # geth
 geth是以太坊的客户端，也是以太坊钱包mist的核心。虽然Remix提供了Javascript VM 和 injected web3两种形式可供调试，但是并不能完全满足调试需求。让remix连接本地的geth是一种很好的选择，既可以调试私有链，又可以调试eth的公有链，如果你熟悉geth操作的话，还能减少很多麻烦。
+<!-- more -->
 ## 下载geth
 https://geth.ethereum.org/downloads/ <br>
 在这个网站上下载1.7.1版本的geth，虽然已经有新的版本更新了，但是有些命令有变动。如果我以后使用1.8版本的话会在这里更新。geth解压以后只有一个可执行文件，名字就叫geth。

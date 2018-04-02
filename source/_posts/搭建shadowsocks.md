@@ -16,6 +16,7 @@ apt-get update
 apt-get install -y python-pip
 pip install shadowsocks
 ```
+<!-- more -->
 此时系统会多出来两个程序：
 ```bash
 /usr/bin/ssserver

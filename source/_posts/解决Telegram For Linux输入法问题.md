@@ -16,6 +16,7 @@ sudo vi /usr/share/applications/telegramdesktop.desktop
 ```bash
 locate telegramdesktop.desktop
 ```
+<!-- more -->
 把Exec那一行修改一下，如下
 ```bash
 Exec=env QT_IM_MODULE=fcitx /usr/bin/telegram-desktop -- %u
