@@ -98,4 +98,35 @@ exit 0
 cd /etc/rc0.d
 ln sudo ln -s ../init.d/ss-local ./ss-local
 ```
+如果需要开启全局模式，需要安装polipo
+```bash
+sudo apt-get install polipo
+```
+修改polipo的配置文件/etc/polipo/config
+```
+logSyslog = true
+logFile = /var/log/polipo/polipo.log
+proxyAddress = "0.0.0.0"
+socksParentProxy = "127.0.0.1:8989"
+socksProxyType = socks5
+chunkHighMark = 50331648
+objectHighMark = 16384
+serverMaxSlots = 64
+serverSlots = 16
+serverSlots1 = 32
+```
+重启polipo来应用变更
+```bash
+sudo service polipo restart
+```
+测试是否连接成功
+```bash
+export http_proxy="http://127.0.0.1:8123/"
+curl ifconfig.me
+```
+如果成功就会返回代理服务器的地址而不是本地的地址
+
+
+
+
 其他平台的基本都有界面化工具，输入你的服务器信息就可以了。
