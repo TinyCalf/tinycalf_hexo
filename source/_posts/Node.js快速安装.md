@@ -7,7 +7,7 @@ tags:
 - npm
 categories: nodejs
 thumbnail: http://ow3lvmu74.bkt.clouddn.com/NodeJsBackground.jpg
-author: Jonathan
+author: TinyCalf
 ---
 
 > 用安装包上传安装实在太慢了 <br>
