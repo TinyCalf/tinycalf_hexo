@@ -84,7 +84,7 @@ deploy:
   type: git
   repo: https://github.com/TinyCalf/TinyCalf.github.io.git
   branch: master
-  message: deploy_20180315
+  message: deploy_20180629
 
 
 
