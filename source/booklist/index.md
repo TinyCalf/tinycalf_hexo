@@ -4,5 +4,6 @@
  type: "booklist"
  comments: false
 ---
-[ ] *Clean Code - Robert C. Martin* （中文译名：《代码整洁之道》）
-[ ] 《Redis开发与运维》
+[x] *Clean Code - Robert C. Martin* （中文译名：《代码整洁之道》）
+[x] 《Redis开发与运维》- 付磊，张益军
+[ ] 《设计模式之禅》- 秦小波

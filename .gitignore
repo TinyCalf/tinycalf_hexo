@@ -4,5 +4,8 @@ db.json
 *.log
 .deploy*/
 public
-/node_modules
+node_modules/
 *~
+*.swp
+*.swn
+*.swo
